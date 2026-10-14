@@ -2,7 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-*.Rproj
 
 # Raw source data is kept out of git
 inst/extdata/*.xlsx
