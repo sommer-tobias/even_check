@@ -5,3 +5,4 @@
 
 # Raw source data is kept out of git
 inst/extdata/*.xlsx
+data/en103_export.rda

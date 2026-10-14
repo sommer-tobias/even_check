@@ -7,19 +7,19 @@
 \format{
 A data frame with 34 rows and 5 variables:
 \describe{
-  \item{\code{code}}{character. Code as stored in the export, e.g. \code{"1032-01"}.}
-  \item{\code{beschreibung}}{character. Description from the EVEN form designer.}
-  \item{\code{kategorie}}{character. Grouping for evaluation: Ölheizung,
-    Gasheizung, Elektroheizung, Holzfeuerung, Wärmepumpe, Fernwärme,
-    Abwärme, Solarthermie, Wärmekraftkopplung,
-    Wärmepumpe-Wassererwärmer, Elektro-Wassererwärmer, Kein
-    Wärmeerzeuger or Andere.}
-  \item{\code{wp_typ}}{character. Heat pump type for \code{kategorie == "Wärmepumpe"}:
-    Luft-Wasser, Sole-Wasser (ground probe or ground register) or
-    Wasser-Wasser. \code{NA} otherwise.}
-  \item{\code{fossil}}{logical. \code{TRUE} for oil and gas, \code{FALSE} for renewable
-    or electric systems, \code{NA} where the energy source is unknown
-    (Wärmekraftkopplung, Andere).}
+\item{\code{code}}{character. Code as stored in the export, e.g. \code{"1032-01"}.}
+\item{\code{beschreibung}}{character. Description from the EVEN form designer.}
+\item{\code{kategorie}}{character. Grouping for evaluation: Ölheizung,
+Gasheizung, Elektroheizung, Holzfeuerung, Wärmepumpe, Fernwärme,
+Abwärme, Solarthermie, Wärmekraftkopplung,
+Wärmepumpe-Wassererwärmer, Elektro-Wassererwärmer, Kein
+Wärmeerzeuger or Andere.}
+\item{\code{wp_typ}}{character. Heat pump type for \code{kategorie == "Wärmepumpe"}:
+Luft-Wasser, Sole-Wasser (ground probe or ground register) or
+Wasser-Wasser. \code{NA} otherwise.}
+\item{\code{fossil}}{logical. \code{TRUE} for oil and gas, \code{FALSE} for renewable
+or electric systems, \code{NA} where the energy source is unknown
+(Wärmekraftkopplung, Andere).}
 }
 }
 \source{
