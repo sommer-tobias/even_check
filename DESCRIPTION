@@ -1,0 +1,14 @@
+Package: evencheck
+Title: Check Whether Numbers Are Even
+Version: 0.0.0.9000
+Authors@R:
+    person("Tobias", "Sommer", , "sommer.tobias@bluewin.ch", role = c("aut", "cre"))
+Description: Provides a small helper to check whether integer-valued
+    numbers are even.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
