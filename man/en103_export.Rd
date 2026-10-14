@@ -57,7 +57,7 @@ A data frame with 676 rows and 46 variables:
 }
 \source{
 Excel export of 30 September 2026
-(\code{excel-export-2026-09-30_anon.xlsx}), imported by
+(\code{inst/extdata/excel-export-2026-09-30_anon.xlsx}), imported by
 \code{data-raw/en103_export.R}.
 }
 \usage{

@@ -5,4 +5,4 @@
 *.Rproj
 
 # Raw source data is kept out of git
-data-raw/*.xlsx
+inst/extdata/*.xlsx

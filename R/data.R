@@ -57,6 +57,6 @@
 #'   \item{`gebaeude_zusaetzliche_gebaeudekategorie`}{character. Additional building category. (Gebäude / Zusätzliche Gebäudekategorie)}
 #' }
 #' @source Excel export of 30 September 2026
-#'   (`excel-export-2026-09-30_anon.xlsx`), imported by
+#'   (`inst/extdata/excel-export-2026-09-30_anon.xlsx`), imported by
 #'   `data-raw/en103_export.R`.
 "en103_export"

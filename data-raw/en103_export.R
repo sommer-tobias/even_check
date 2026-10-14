@@ -1,11 +1,11 @@
 ## Read the EN-103 (heating and hot water) export and save it as package data.
 ##
-## Source: data-raw/excel-export-2026-09-30_anon.xlsx (anonymised export,
+## Source: inst/extdata/excel-export-2026-09-30_anon.xlsx (anonymised export,
 ## one row per building and EN-103 sub-proof).
 ##
 ## Requires readxl and usethis (not package dependencies).
 
-path <- "data-raw/excel-export-2026-09-30_anon.xlsx"
+path <- "inst/extdata/excel-export-2026-09-30_anon.xlsx"
 
 raw <- readxl::read_excel(path, sheet = 1, guess_max = 10000)
 
