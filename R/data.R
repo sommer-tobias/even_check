@@ -60,3 +60,31 @@
 #'   (`inst/extdata/excel-export-2026-09-30_anon.xlsx`), imported by
 #'   `data-raw/en103_export.R`.
 "en103_export"
+
+#' EN-103 heat generator codes
+#'
+#' Lookup table for the codes used in the EN-103 fields for heat generators
+#' (e.g. `en_103_neue_heizung`, `en_103_bestehende_heizung`,
+#' `en_103_neuer_wassererwaermer` in [en103_export]).
+#'
+#' @format A data frame with 34 rows and 5 variables:
+#' \describe{
+#'   \item{`code`}{character. Code as stored in the export, e.g. `"1032-01"`.}
+#'   \item{`beschreibung`}{character. Description from the EVEN form designer.}
+#'   \item{`kategorie`}{character. Grouping for evaluation: Ölheizung,
+#'     Gasheizung, Elektroheizung, Holzfeuerung, Wärmepumpe, Fernwärme,
+#'     Abwärme, Solarthermie, Wärmekraftkopplung,
+#'     Wärmepumpe-Wassererwärmer, Elektro-Wassererwärmer, Kein
+#'     Wärmeerzeuger or Andere.}
+#'   \item{`wp_typ`}{character. Heat pump type for `kategorie == "Wärmepumpe"`:
+#'     Luft-Wasser, Sole-Wasser (ground probe or ground register) or
+#'     Wasser-Wasser. `NA` otherwise.}
+#'   \item{`fossil`}{logical. `TRUE` for oil and gas, `FALSE` for renewable
+#'     or electric systems, `NA` where the energy source is unknown
+#'     (Wärmekraftkopplung, Andere).}
+#' }
+#' @source EVEN-Formulardesigner, convention for "Wärmeerzeuger Heizung"
+#'   and "Wärmeerzeuger Warmwasser" (16.09.2026), transcribed to
+#'   `inst/extdata/heizsystem_codes.csv` and imported by
+#'   `data-raw/heizsystem_codes.R`.
+"heizsystem_codes"

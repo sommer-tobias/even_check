@@ -1,0 +1,35 @@
+code,beschreibung,kategorie,wp_typ,fossil
+1031-00,Kein Wärmeerzeuger,Kein Wärmeerzeuger,,FALSE
+1031-01,"Wärmepumpe Luft/Wasser, innen aufgestellt",Wärmepumpe,Luft-Wasser,FALSE
+1031-02,"Wärmepumpe Luft/Wasser mit el. Notheizung, innen aufgestellt",Wärmepumpe,Luft-Wasser,FALSE
+1031-03,"Wärmepumpe Luft/Wasser, aussen aufgestellt",Wärmepumpe,Luft-Wasser,FALSE
+1031-04,"Wärmepumpe Luft/Wasser mit el. Notheizung, aussen aufgestellt",Wärmepumpe,Luft-Wasser,FALSE
+1032-01,Wärmepumpe Erdsonde/Wasser,Wärmepumpe,Sole-Wasser,FALSE
+1032-02,Wärmepumpe Erdsonde/Wasser mit el. Notheizung,Wärmepumpe,Sole-Wasser,FALSE
+1032-03,Wärmepumpe Erdregister/Wasser,Wärmepumpe,Sole-Wasser,FALSE
+1032-04,Wärmepumpe Erdregister/Wasser mit el. Notheizung,Wärmepumpe,Sole-Wasser,FALSE
+1032-05,Wärmepumpe Wasser/Wasser,Wärmepumpe,Wasser-Wasser,FALSE
+1032-06,Wärmepumpe Wasser/Wasser mit el. Notheizung,Wärmepumpe,Wasser-Wasser,FALSE
+1033-01,Solaranlage thermisch,Solarthermie,,FALSE
+1034-01,Gasfeuerung kondensierend,Gasheizung,,TRUE
+1034-02,Gasfeuerung,Gasheizung,,TRUE
+1034-03,Ölfeuerung kondensierend,Ölheizung,,TRUE
+1034-04,Ölfeuerung,Ölheizung,,TRUE
+1035-01,Holzpelletsfeuerung,Holzfeuerung,,FALSE
+1035-02,Holzpelletsfeuerung kondensierend,Holzfeuerung,,FALSE
+1035-03,Holzschnitzelfeuerung,Holzfeuerung,,FALSE
+1035-04,Holzschnitzelfeuerung kondensierend,Holzfeuerung,,FALSE
+1036-01,Stückholzfeuerung,Holzfeuerung,,FALSE
+1036-02,Stückholzfeuerung mit elektrischer Notheizung,Holzfeuerung,,FALSE
+1037-01,"Fernwärme (aus ARA, KVA) Hochtemperatur",Fernwärme,,FALSE
+1037-02,"Fernwärme (aus ARA, KVA) Niedertemperatur",Fernwärme,,FALSE
+1037-03,Abwärme (Quelle im Gebäude),Abwärme,,FALSE
+1037-04,Abwärme (von anderem Gebäude),Abwärme,,FALSE
+1038-01,Wärmekraftkopplung,Wärmekraftkopplung,,
+1039-01,Elektrische Widerstandsheizung zentral,Elektroheizung,,FALSE
+1039-02,Elektrische Widerstandsheizung dezentral,Elektroheizung,,FALSE
+1039-03,Elektrische Widerstandsheizung Infrarot,Elektroheizung,,FALSE
+1030-01,Wärmepumpe-Wassererwärmer,Wärmepumpe-Wassererwärmer,,FALSE
+1030-02,Elektro-Wassererwärmer Zentral,Elektro-Wassererwärmer,,FALSE
+1030-03,Elektro-Wassererwärmer Kleinboiler,Elektro-Wassererwärmer,,FALSE
+103a-01,Andere,Andere,,
